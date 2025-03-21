@@ -1,5 +1,6 @@
 let listaDeNumeros = [];
 let nMax = 30;
+document.getElementById("numeroMax").setAttribute("max", nMax);
 let nSecreto = numeroAleatorio();
 let erro = "Erro! Preencha corretamente.";
 let tentativas = 1;
