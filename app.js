@@ -74,3 +74,4 @@ function reiniciarJogo() {
     document.getElementById("reiniciar").setAttribute("disabled", true);
     document.getElementById("bchute").removeAttribute("disabled");
 }
+
